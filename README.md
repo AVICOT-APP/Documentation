@@ -5,7 +5,7 @@ There are two challenges to face in this plan. One is about technology, and the 
 
 I hereby ask you to link and share this with anybody you think could contribute in evaluating and implementing the idea. We really don’t have a lot of time to get this done.
 
-## Interview -based contact tracking and quarantining 
+## Interview-based contact tracking and quarantining 
 An important, and very efficient, part of the current intensive effort being made by medical authorities worldwide, is contact tracking: For each known infected person, the task is to identify anybody that may have had exposure to the virus, and to put those in any real risk into quarantine.
 
 In cases where the infected person has mostly been close to well-known contacts like family, friends and colleagues, the tracking is straight forward. In others, e.g. if the infected person has been to a public concert or has spent a long time in public transportation, the task can be almost impossible, because nobody knows the identity of the potentially infected people. 
