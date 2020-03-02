@@ -55,7 +55,7 @@ To me, the most important aspect is that this concept may be useful in all areas
 To organize inputs, I’ve setup an initial team and a documentation repository at
  https://github.com/AVICOT-APP
 
-In the Documentation repository, I would like to gather your input for public sharing under creative commons CC0-1.0 license. The will most likely be a quite dynamic and agile roadmap, depending on what issues turn up in the feedback.
+In the Documentation repository, I would like to gather your input for public sharing under creative commons CC0-1.0 license. This will most likely be a quite dynamic and agile roadmap, depending on what issues turn up in the feedback.
 
 If the project does take off on a large scale, I might hand-off the organizational responsibility to the WHO. But at the current level, I will try to organize the input into the Documentation repository.
 
