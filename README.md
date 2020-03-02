@@ -73,5 +73,6 @@ If you are interested in participating, please send me your details and backgrou
 Best regards
 
 Sune Mai, March 2nd, 2020 
+sunemai using the mail service hotmail.com
 
 [1] Jard, Meaad & Shah, H. & Bhaskar, Ashish. (2013). Empirical evaluation of Bluetooth and Wifi scanning for road transport.
