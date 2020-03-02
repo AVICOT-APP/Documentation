@@ -1,7 +1,7 @@
 "Removing COVID-19 from the earth is really quite easy. All we need to do is to have the - still relatively few - people infected, stop infecting new people. The surprise is that achieving this might not require any mass surveillance. Just a free app, with absolutely no impact on most users' life. An app that nobody should be shy to ask their friends to install before visiting. This is the idea of the AVICOT-APP." Sune Mai
 
 # Can we stop COVID-19 using Bluetooth?
-Dear reader, please help me evaluate the ideas outlined below. I believe it might be possible to develop these concepts into a GDPR conforming mobile phone app and a WHO organized global data-server solution. And, that the combination of these has the potential to stop both COVID-19, and other deadly virus epidemics in general. 
+Dear reader, please help me evaluate the ideas outlined below. I believe it might be possible to develop these concepts into a GDPR conforming mobile phone app and a WHO organized global data-server solution. And, that the combination of these has the potential to stop both COVID-19, and other deadly virus epidemics in general - without compromizing personal data security. 
 
 There are two challenges to face in this plan. One is about technology, and the other is about public awareness, information and education. We shall primarily deal with the technology part here, although the latter challenge is probably going to be the most difficult.
 
