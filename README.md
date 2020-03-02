@@ -59,10 +59,10 @@ To organize inputs, I’ve setup an initial team and a documentation repository 
 
 In the Documentation repository, I would like to gather your input for public sharing under creative commons CC0-1.0 license. This will most likely be a quite dynamic and agile roadmap, depending on what issues turn up in the feedback.
 
-If the project does take off on a large scale, I might hand-off the organizational responsibility to the WHO. But at the current level, I will try to organize the input into the Documentation repository.
+If the project does take off on a large scale, I intend to hand-off the organizational responsibility to e.g. the WHO or the national (danish) health authorities, in case it is easier to build a test-case in national scale. Until further notice, however, I will try to organize the input into the Documentation repository.
 
 The following is the initial roadmap suggestion for the first few steps:
-1.	Evaluate the technical challenges of the ID logging. Without this, we can’t go further -unless an alternative technological solution, meeting the same overall goals, should come up.
+1.	Evaluate the technical challenges of the ID logging. Without this, we can’t go further - unless an alternative technological solution, meeting the same overall goals, should come up.
 2.	Evaluate the legal details. I’m not an expert on GDPR, or legal issues in general, so we need to check if the local storage of Bluetooth IDs in the log is legal.
 3.	Evaluate the licensing terms of the current project. My main concern in releasing the concept at this very early stage is that some patent-troll (individual or company) may solve a really trivial technical challenge in getting the synchronized logging to work – and thus delay the process and limit the scope of the project. 
 4.	If the above points are ok, we should immediately start development of an AVICOT-APP, drawing relevant industrial partners into the project. A first issue to consider is whether the log-file can be started by an initial AVICOT-APP v0.1, having only logging capability – and then being continued without any data loss with each subsequent release. 
