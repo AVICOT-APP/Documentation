@@ -1,4 +1,4 @@
-UPDATE: Please note that after posting the following, I was contacted by the good people at https://www.covid19risk.com/ who are working on a similar concept, now very close to testing phase. I strongly urge anybody with the relevant coding skils to have a look at their site instead. 
+UPDATE: Please note that after posting the following, I was contacted by the good people at https://www.covid19risk.com/ who are working on a similar concept, now very close to testing phase. I strongly urge anybody with the relevant coding skills to have a look at their site instead. 
 
 # Can we stop COVID-19 using Bluetooth?
 Dear reader, please help me evaluate the ideas outlined below. I believe it might be possible to develop these concepts into a GDPR conforming mobile phone app and a WHO organized global data-server solution. And, that the combination of these has the potential to stop both COVID-19, and other deadly virus epidemics in general - without compromising personal data security. 
