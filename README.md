@@ -7,21 +7,21 @@ There are two challenges to face in this plan. One is about technology, and the 
 
 I hereby ask you to link and share this with anybody you think could contribute in evaluating and implementing the idea. We really don’t have a lot of time to get this done.
 
-## Interview-based contact tracking and quarantining 
-An important, and very efficient, part of the current intensive effort being made by medical authorities worldwide, is contact tracking: For each known infected person, the task is to identify anybody that may have had exposure to the virus, and to put those in any real risk into quarantine.
+## Interview-based contact tracing and quarantining 
+An important, and very efficient, part of the current intensive effort being made by medical authorities worldwide, is contact tracing: For each known infected person, the task is to identify anybody that may have had exposure to the virus, and to put those in any real risk into quarantine.
 
-In cases where the infected person has mostly been close to well-known contacts like family, friends and colleagues, the tracking is straight forward. In others, e.g. if the infected person has been to a public concert or has spent a long time in public transportation, the task can be almost impossible, because nobody knows the identity of the potentially infected people. 
+In cases where the infected person has mostly been close to well-known contacts like family, friends and colleagues, the tracing is straight forward. In others, e.g. if the infected person has been to a public concert or has spent a long time in public transportation, the task can be almost impossible, because nobody knows the identity of the potentially infected people. 
 
 When identifying and assessing the risk of all contacts is possible, however, the method is extremely effective. But it also requires large resources and qualified medical staff, making global scaling unrealistic. Furthermore, it can easily be to slow, in the sense that the virus infection may already have taken another leap or two, before the quarantining is established.
 
 ## Technology and Privacy - the General Data Protection Regulation
-Any technological solution that tries to mimic the contact tracking performed by medical authorities will automatically break GDPR. Or will it really? 
+Any technological solution that tries to mimic the contact tracing performed by medical authorities will automatically break GDPR. Or will it really? 
 
-What if we turn the contact tracking and quarantining concept upside down, and rephrase it like this: Every responsible human being should be interested in knowing if he or she presents a non-negligible virus threat to family, friends, colleagues and thus – ultimately – society in general. 
+What if we turn the contact tracing and quarantining concept upside down, and rephrase it like this: Every responsible human being should be interested in knowing if he or she presents a non-negligible virus threat to family, friends, colleagues and thus – ultimately – society in general. 
 
 With proper advice; self-quarantining, or just infection awareness, would reduce the transmission probability markedly. Thus, nobody needs to be identifiable or trackable in any way for the concept to work. But anyone advised by an app that they are realistically in some danger, would probably choose to seek medical advice in any case – and hopefully by phone.
 
-If we can provide an automatic, app-based solution that gives the relevant info free of cost, free from commercials, using little mobile data bandwidth and battery,  and with full anonymity and control of shared personal data – then why would anybody not want to have this app permanently running? And maybe a valid app-installation with 14 days of contact tracking log-file could even be made mandatory for participating in all large public events, e.g. like the Olympics? 
+If we can provide an automatic, app-based solution that gives the relevant info free of cost, free from commercials, using little mobile data bandwidth and battery,  and with full anonymity and control of shared personal data – then why would anybody not want to have this app permanently running? And maybe a valid app-installation with 14 days of contact tracing log-file could even be made mandatory for participating in all large public events, e.g. like the Olympics? 
 
 This is the overall concept and scale of ambition for the AVICOT-APP described below. The exact technology used to get there doesn’t really matter much, as long as it works. But since the time-budget is limited we’d better try to use an existing technology. One option is Bluetooth. 
 
@@ -32,14 +32,14 @@ The relation between RSSI and distance depends on many factors, including the pr
 
 The technology has been used before, e.g. for traffic measurements in Australia, where Bluetooth IDs of car-drivers’ electronic gadgets were logged from roadside scanners in order to determine transit times on a road [1]. 
 
-## Anonymous Virus Contact Tracking – the AVICOT protocol
+## Anonymous Virus Contact Tracing – the AVICOT protocol
 Consider a mobile phone AVICOT-APP that does the following:
 1.	Every 10 minutes, referred to absolute UTC time, it enables Bluetooth and visibility of the phone for 15 sec. 
-2.	During these 15 sec, a scan of nearby Bluetooth devices is performed. The result is stored in a timestamped log of (ID, RSSI) pairs locally on the phone. The log is time-limited to cover only entries from the last, say, 20 days. Any ID appearing often, or with high RSSI, represents a likely “contact” in the sense of contact tracking and quarantining. But no sharing or uploading of this data occurs.  
+2.	During these 15 sec, a scan of nearby Bluetooth devices is performed. The result is stored in a timestamped log of (ID, RSSI) pairs locally on the phone. The log is time-limited to cover only entries from the last, say, 20 days. Any ID appearing often, or with high RSSI, represents a likely “contact” in the sense of contact tracing and quarantining. But no sharing or uploading of this data occurs.  
 3.	Regularly, e.g. every 6 hours, the AVICOT-APP checks the public “COVID-19 level 0” list on a WHO-organized AVICOT-SERVER. Entries in this are Bluetooth IDs of devices owned/used by officially diagnosed COVID-19 cases, who have given their consent to this publication. The list may be regionally organized, to limit mobile data requirements.
 4.	In the rare case that a match is found between an ID in the local log, and the official level 0 list, it most likely means that within the last 20 days, the phone has been in the vicinity of the now diagnosed, and possibly unrelated COVID-19 patient. To assess if this should have consequences in the form of medical advice to the owner, the timestamps, IDs and RSSI values corresponding to the recorded matches is uploaded to the AVICOT-SERVER. Notice that this transfer should be covered by the consent already described in point 3. The server then evaluates the data with an algorithm designed to estimate the infection risk. 
 5.	If the AVICOT-SERVER responds to the upload with a message of non-negligible increased infection risk, this information is conveyed to the user of the AVICOT-APP along with suitable explanation of what action to take. 
-6.	Step 5 may also prompt the user to give consent to uploading the phones own Bluetooth ID to a “COVID-19 level 1” list, containing IDs of devices belonging to people who might be infected, and thus generalizing the general concept to multiple stages of contact tracking. 
+6.	Step 5 may also prompt the user to give consent to uploading the phones own Bluetooth ID to a “COVID-19 level 1” list, containing IDs of devices belonging to people who might be infected, and thus generalizing the general concept to multiple stages of contact tracing. 
 
 There are many issues to consider in the above, both technical and use related:  
 
